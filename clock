@@ -1,0 +1,3 @@
+[instance/clock/{d9821126-b086-11ed-b706-6dc486ec405a}]
+custom-format='%I:%M %p%n%m/%d/%Y'
+use-custom-format=true
