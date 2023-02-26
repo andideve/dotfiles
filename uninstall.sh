@@ -5,6 +5,8 @@ dconf reset -f /org/gnome/desktop/wm/preferences/
 dconf reset -f /com/solus-project/budgie-wm/
 dconf reset -f /com/solus-project/budgie-panel/
 dconf reset -f /com/solus-project/clock/
+# dconf reset -f /com/gexperts/Tilix/
+# dconf reset -f /org/nemo/
 # Removing Files
 sudo rm /usr/share/backgrounds/3840x2160.png
 sudo rm -r /usr/share/fonts/SanFranciscoFont

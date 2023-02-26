@@ -11,6 +11,8 @@ dconf reset -f /org/gnome/desktop/wm/preferences/
 dconf reset -f /com/solus-project/budgie-wm/
 dconf reset -f /com/solus-project/budgie-panel/
 dconf reset -f /com/solus-project/clock/
+# dconf reset -f /com/gexperts/Tilix/
+# dconf reset -f /org/nemo/
 # Configuring Background
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/3840x2160.png'
 # Configuring Interface
@@ -32,3 +34,10 @@ sudo pacman -S budgie-extras
 dconf load /com/solus-project/budgie-panel/ < budgie-panel
 # Configuring Clock
 dconf load /com/solus-project/clock/ < clock
+# Configuring Tilix
+# gsettings set com.gexperts.Tilix.Settings terminal-title-style 'none'
+# Configuring Nemo
+# gsettings set org.nemo.window-state geometry '980x550+0+0'
+# gsettings set org.nemo.window-state start-with-menu-bar false
+# gsettings set org.nemo.window-state sidebar-width 200
+# gsettings set org.nemo.preferences default-folder-viewer 'list-view'
