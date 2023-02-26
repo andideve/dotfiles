@@ -3,7 +3,7 @@ sudo cp -r ./backgrounds /usr/share/
 sudo tar -x -f ./fonts/SanFranciscoFont.tar.gz -C /usr/share/fonts/
 sudo tar -x -f ./icons/01-Fluent.tar.xz -C /usr/share/icons/
 sudo tar -x -f ./icons/WhiteSur-cursors.tar.gz -C /usr/share/icons/
-sudo unzip ./themes/Tokyonight-Dark-BL.zip -d /usr/share/themes/
+sudo tar -x -f ./themes/Fluent-round-Dark.tar.xz -C /usr/share/themes/
 # Reset Settings
 dconf reset -f /org/gnome/desktop/background/
 dconf reset -f /org/gnome/desktop/interface/
@@ -14,7 +14,7 @@ dconf reset -f /com/solus-project/clock/
 # Configuring Background
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/3840x2160.png'
 # Configuring Interface
-gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Dark-BL'
+gsettings set org.gnome.desktop.interface gtk-theme 'Fluent-round-Dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Fluent-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'WhiteSur-cursors'
 gsettings set org.gnome.desktop.interface enable-animations false

@@ -11,6 +11,6 @@ sudo rm -r /usr/share/fonts/SanFranciscoFont
 sudo rm -r /usr/share/icons/Fluent
 sudo rm -r /usr/share/icons/Fluent-dark
 sudo rm -r /usr/share/icons/WhiteSur-cursors
-sudo rm -r /usr/share/themes/Tokyonight-Dark-BL
+sudo rm -r /usr/share/themes/Fluent-round-Dark
 # Removing Packages
 sudo pacman -R budgie-extras
